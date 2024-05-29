@@ -1,0 +1,147 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF1ED;
+    background-image : url(image/background.png);
+    color: #333;
+    width: 100%;
+    min-height: 100vh; /* Ensure minimum height to fill the viewport */
+    position: relative; /* Set body position to relative */
+
+}
+.note {
+    font-size :18px;
+    left : 10px;
+    position: absolute;
+    color: black;
+    top: 0;
+}
+
+.container1 {
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+     z-index: 1000;
+     border :  solid;
+     border-radius: 15px;
+     border-color : #fff;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s, opacity 0.3s;
+}
+.logo:hover {
+ transform: translateX(20px);
+ }
+.programming {
+    padding-left: 20px;
+    color :black;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.paragraph {
+    padding-left: 30px;
+    font-size: 20px;
+     color :black;
+
+}
+
+.paragraph2 {
+    font-size: 20px;
+     color :black;
+}
+
+.para {
+    padding-left: 25px;
+    font-size: 20px;
+
+}
+
+.para2 {
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.java {
+    position: absolute;
+    margin-right: 10px;
+    top: 250px;
+    left: 300px;
+}
+footer {
+    position: absolute; /* Set position to absolute */
+    width: 100%;
+    background-color: white;
+    color: #84DCC6;
+    text-align: center;
+    padding: 8px;
+    margin-top :2500px;
+    clear : both;
+    position : center;
+    height : 200px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Center the icons vertically */
+    background-color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Set the width of the circle */
+    height: 60px; /* Set the height of the circle */
+    margin: 0 10px;
+    border-radius: 50%; /* Make the container circular */
+    background-color: #333; /* Background color of the circle */
+    color: white; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+.icon i {
+    line-height: 60px; /* Center the icon vertically */
+}
+.icon:hover {
+    background-color: #1877F2; /* Facebook blue color */
+    transform: scale(1.2); /* Slightly enlarge the circle */
+}
+.icon.instagram:hover {
+    background-color: #C13584; /* Instagram pink color */
+}
+
+.icon.github:hover {
+    background-color: #333; /* GitHub dark color */
+}
+
+.icon.whatsapp:hover {
+    background-color: #25D366; /* WhatsApp green color */
+}
+
+.icon.twitter:hover {
+    background-color: #1DA1F2; /* Twitter blue color */
+}
+
+
